@@ -1,77 +1,3 @@
-/*body {
-    background-color: #000000;
-    max-width: 100%;
-}
-h1 {
-    color: white;
-    margin: auto;
-    width: 50%;
-    padding: 20px;
-    display: flex;
-    float: left;
-}
-
-.search {
-    width: 100%;
-    position: relative;
-    display: flex;
-    margin: 10px;
-  }
-
-input[type=text] {
-    width: 100%;
-    border: 3px solid grey;
-    border-right: none;
-    padding: 5px;
-    
-    border-radius: 40px;
-    outline: none;
-    color: #fff;
-    background-color: grey;
-    font-size: 18px;
-    margin: auto;
-}
-
-::placeholder {
-    color: rgb(197, 197, 197)
-}
-
-header button {
-    background-color: white;
-    color: grey;
-    border-radius: 50%;
-    border: none;
-    margin: 5px;
-    text-align: center;
-    font-size: 20px;
-   
-}
-
-header button :hover {
-    color: black;
-    cursor: pointer;
-  }
-
-p {
-    color: white;
-    font-size: 18px;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-img.icon {
-    margin: 10px;
-    border-radius: 50%;
-    display: inline;
-    width: 20%;
-    float: left;
-}
-
-.mentor {
-    border-bottom: 1px solid #ffffff;
-    margin: 10px;
-    text-align: center;
-} */
-
 * {
   box-sizing: border-box;
   max-width: 100%;
@@ -92,6 +18,10 @@ h3 {
 p {
     color: white;
     
+}
+
+.container {
+    max-width: 960px;
 }
 
 #myInput {
@@ -118,9 +48,6 @@ p {
 .icon {
     margin: 10px;
     border-radius: 50%;
-    display: inline;
-    width: 20%;
-    float: left;
     
 }
 
@@ -129,28 +56,8 @@ p {
 }
 
 
-
 .whatsapp {
-    width: 10%;
-    float: right; 
-    margin: 10px;
-
-}
-
-/* Midium Screen */
-@media(min-width: 600px) and (max-width:900px) {
-
-   .icon{
-       max-width:15%;
-   }
-}
-
-
-/* Large Screen */
-@media(min-width: 901px) {
-
-    .icon{
-        max-width:10%;
-    }
-
+    display: inline;
+    width: 40px;
+    float: right;
 }
