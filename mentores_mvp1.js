@@ -1,31 +1,25 @@
-function myFunction() {
+function Search_bar() {
     let input;
-    let filter;
     let Ulcontainer;
     let listElements;
     let a;
     let i;
-    let txtValue;
-    let contactContainer;
 
     //get tags
     //Search bar input
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
+    input = document.getElementById("myInput").value;
 
     //Grab elements from the html
-    Ulcontainer = document.getElementsByClass("row_skills");
+    Ulcontainer = document.getElementsByClassName("row_skills");
     listElements = Ulcontainer.getElementsByTagName("li");
 
     //traverse collection TAGS
     for (i = 0; i < listElements.length; ++i) {
         a = listElements[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.indexOf(filter) > -1) {
-            listElements[i].toUpperCase.style.display = "";
+        if (a.innerHTML.includes(input)) {
+            listElements[i].toUpperCase.style.display = "list-item";
         } else {
             listElements[i].style.display = "none";
         }
     }
-
 }
