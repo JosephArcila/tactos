@@ -16,8 +16,10 @@ function Search_bar() {
     //traverse collection TAGS
     for (let i = 0; i < Ulcontainer.length; ++i) {
         if (Ulcontainer[i].innerHTML.toLowerCase().includes(input)) {
+            //show the division
             UIContactContainer[i].style.display = "list-item";
         } else {
+            //Hide the division
             UIContactContainer[i].style.display = "none";
         }
     }
