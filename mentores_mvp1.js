@@ -1,25 +1,24 @@
 function Search_bar() {
     let input;
     let Ulcontainer;
-    let listElements;
-    let a;
-    let i;
+    let UIContactContainer
 
     //get tags
     //Search bar input
     input = document.getElementById("myInput").value;
+    input = input.toLowerCase();
 
     //Grab elements from the html
     Ulcontainer = document.getElementsByClassName("row_skills");
-    listElements = Ulcontainer.getElementsByTagName("li");
+    UIContactContainer = document.getElementsByClassName("contact");
+
 
     //traverse collection TAGS
-    for (i = 0; i < listElements.length; ++i) {
-        a = listElements[i].getElementsByTagName("a")[0];
-        if (a.innerHTML.includes(input)) {
-            listElements[i].toUpperCase.style.display = "list-item";
+    for (let i = 0; i < Ulcontainer.length; ++i) {
+        if (Ulcontainer[i].innerHTML.toLowerCase().includes(input)) {
+            UIContactContainer[i].style.display = "list-item";
         } else {
-            listElements[i].style.display = "none";
+            UIContactContainer[i].style.display = "none";
         }
     }
 }
