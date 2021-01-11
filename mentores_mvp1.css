@@ -28,7 +28,7 @@ body {
 
 h3 {
   color: #fff;
-  font-size: 20px;
+  font-size: 2r4px;
   margin: 0;
   padding-bottom: 5px;
 }
@@ -69,8 +69,8 @@ img.icon {
   min-width: 40px;
 }
 
-.skills {
-  margin-top: 10px;
+li {
+    display: inline;
 }
 
 button {
@@ -91,9 +91,6 @@ button {
 
 /* Midium Screen */
 @media (min-width: 600px) and (max-width: 900px) {
-  /* #icon {
-        width: 90px;
-    } */
 
   .contact-container {
     display: grid;
@@ -105,9 +102,6 @@ button {
 
 /* Large Screen */
 @media (min-width: 901px) {
-  /* #icon {
-        width: 100px;
-    } */
 
   .contact-container {
     display: grid;
