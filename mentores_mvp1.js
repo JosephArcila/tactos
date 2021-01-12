@@ -12,7 +12,6 @@ function Search_bar() {
     Ulcontainer = document.getElementsByClassName("row_skills");
     UIContactContainer = document.getElementsByClassName("contact");
 
-
     //traverse collection TAGS
     for (let i = 0; i < Ulcontainer.length; ++i) {
         if (Ulcontainer[i].innerHTML.toLowerCase().includes(input)) {
