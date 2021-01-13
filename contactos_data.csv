@@ -1,0 +1,241 @@
+id,ImgName,Name,Rating,Reviews,Temas,Description
+1,1-pedro-juarez.jpg,Pedro,4.7,33,"natación
+Escritor
+Educación",Educador de vocación
+2,2-francisco-solorzano.jpg,Francisco,5.0,88,"Cantante
+Filosofo
+Derecho",Cantante con 8 años de experiencia
+3,3-alberta-gallego.jpg,Alberta,4.9,63,"Desarrollo de apps
+IOT
+Arquitecta de software",Arquitecta de software en latam
+4,4-sofia-villareal.jpg,Sofia,4.4,33,"Profesora
+Sociales
+Historia latinoamericana",Apasionada por la historia
+5,5-andres-castiblanco.jpg,Andres,4.3,67,"Ciencia
+Biologia
+Editor genetico con crysp",Investigador de cryspt
+6,6-filipa-castro.jpg,Filipa,4.5,85,"Científica de datos
+Diseñadora de algoritmos
+Experta en redes neuronales",Data scientist consultor
+7,7-pamela-cardona.jpg,Pamela,4.2,93,"Politologa
+Escritora de distopias
+Experta en escritura y pintura",Apasionada por la politica
+8,8-christina-lopez.jpg,Christina,4.9,63,"Psiquiatra
+Tenis y ping pong
+Especialista en psiquiatría en menores",Especilista en psiquiatria infantil
+9,9-felipe-quintero.jpg,Felipe,4.4,66,"Administrador de empresas
+Experto en técnicas de aprendizaje
+Autodidacta",El aprendizaje es el sentido de mi vida
+10,10-sebastian-shret.jpg,Sebastian,4.5,44,"Tenista profesional
+Oftalmólogo
+Ortodoncista",Maestro de tenis y profesor
+11,11-brayan-cardenas.jpg,Brayan,4.4,10,"Emprendedor
+Ingeniero Químico
+Experto en empresas de químicos",Mi pasión es la quimica
+12,12-camilosanglonz.jpg,Camilo,4.5,41,"Modelo
+Director de cine
+Cineasta",El humano en el arte es mi especialidad
+13,13-alonso-casimiro.jpg,Alonso,4.4,78,"Baterista
+Musicologo
+Maestro de yoga","La paz en la musica, eso es lo que enseño"
+14,14-santiagobenjumea.jpg,Santiago,4.4,59,"Arquitecto
+Profesor de ingles
+Experto en educación primaria",Los idiomas son mi  pasión
+15,15-emilia-zapata.jpg,Emilia,4.8,15,"Diseñadora de modas
+confeccionista
+Directora de pasarela",las telas y el modelaje es mi forma de ayudar
+16,16-alberto-sinisterra.JPG,Alberto,4.5,5,"Deportologo
+Arbitro de futbol
+Experto en deportes extremos",La cultura del deporte es mi vida
+17,17-guadalupe-prieto.JPG,Guadalupe,4.3,34,"Emprendedora
+Experta en algoritmos genéticos
+Experta en genetica","La evolución del hombre y la genética, es mi pasión"
+18,18-dorothy-perez.JPG,Dorothy,4.6,3,"Impulsadora de producto
+Product designer
+diseñadora",El impacto de los productos en el hombre es mi forma de ayudar en el mundo
+19,19-francisco-zapata.JPG,Francisco,4.7,17,"Peluquero
+Moda y estilos
+Estilista profesional","El look, y la belleza es mi profesión"
+20,20-alex-sapote.JPG,Alex,4.7,93,"Estudiante de ingenieria industrial
+tutor de matematicas
+Portugues",Ayudo a los estudiantes en sus primeros días
+21,21-Catalina.jpg,Catalina,4.4,9,"Idiomas
+Viajes
+Caminatas","Hola, soy cata, y me encanta la diversidad."
+22,22-Amanda.jpg,Amanda,4.4,84,"Fitness
+Realizadora audiovisual
+UX/UI","Hola, soy adicta al fitness y al diseño"
+23,23-Sebastian.jpg,Sebastian,4.7,21,"Psicologia
+Investigación 
+Escritor",No leo cartas pero si puedo precisar que puede estar sucediendote
+24,24-Daniel.jpg,Daniel,4.0,92,"Investigación
+Matemáticas
+Vino","La formula no está solo en el papel, en compañia de un vino decubro muchas mas cosas"
+25,25-Danilo.jpg,Danilo,4.5,12,"Medicina
+Caminatas
+Meditación","Caminar tambien es una forma de sanar, pero también lo es meditar"
+26,26-Samanta.jpg,Samantha,4.2,35,"Pedagogía 
+Enseñanza constructiva
+Agricultura","Mi madre me enseñaba a cosechar y a través de los años he aprendido que enseñar lo esencial, se vuelve lo más importante"
+27,27-Carlos.jpg,Carlos,4.5,77,"Mecanica
+Carros
+Arquitectura",No solo me gustan la estetica de las construcciones. tambien soy una apasionado de los motores
+28,28-Victor.jpg,Victor,4.5,68,"Fisica
+Cocina Gourmet
+Atletismo","¿Crees qué un físico solo sabe de materia? en mi caso se de cocina, y creeme, soy bueno"
+29,29-Eduardo.jpg,Eduardo,4.6,25,"Deportes
+Natación
+Viajar","Hola mundo, soy eduardo, me encanta ejercitarme y viajar."
+30,30-Camilo.jpg,Camilo,4.5,86,"Antropologia
+Intercambio cultural
+Viajar","Hola, me dice cami, me gusta la diversidad del planeta y por suepuesto, viajar por el mismo."
+31,31-Antonio.jpg,Antonio,4.4,11,"Compositor
+Lector asiduo
+Jazz","ta ta ran shhh, asi es, musica y experiencia"
+32,32-Alejandro.jpg,Alejandro,4.4,9,"Arquitectura
+Leer
+Estar en compañía","El alejo, se hace presente, pasam un libro y permiteme explorar un espacio estetico."
+33,33-Jonas.jpg,Jonas,4.5,18,"Tecnología
+Servicio comunitario
+Liderazgo","Hola soy el Jonas, me gusta ayudar e incentivar a los demás"
+34,34-Matias.jpg,Matías,4.4,50,"Economista
+Bailar salsa
+Vacacionar","Buen dia, tarde o noche, soy una mezcla de numeros y ritmo"
+35,35-Sonia.jpg,Sonia,4.3,99,"Cine
+Edicion de video
+Producción y guión","Basicamente me encanta el septimo arte, quizás con un toque de sauvignon"
+36,36-Maria.jpg,Maria,4.9,41,"Socializar
+Relaciones
+vender","No solo te vendo un esfero, tambien te ayudo a soltarte para que tu puedas lograrlo"
+37,37-Nicolas.jpg,Nicolas,4.6,18,"Literatura
+Cafe
+Emprendimiento","Sabes, un café, un cortazar y una libreria, son suficientes"
+38,38-Adolfo.jpg,Adolfo,4.9,86,"Ciclismo 
+Couching 
+caminatas","Soy de los que le gusta ejercitar las piernas, pero animando a los demás a hacerlo"
+39,39-Sofia.jpg,Sofia,4.3,45,"Pedagogía 
+Derecho 
+Activista ","Get up and stand up, asi es, no olvidemos nuestros derechos y deberes"
+40,40-July.jpg,July,5.0,96,"Administración 
+Voluntariado
+Religion ","Hey, tu, soy July, y me encanta todo lo espiritual del mundo."
+41,41-isabela.jpg,Isabela,4.1,3,"Piano
+Compositora 
+Cualificación del maestro",Profeción en Piano. Tambien tengo experiencia en composición.
+42,42-manuel.jpg,Manuel,4.2,50,"Youtuber
+Edicion de video
+Guitarra",Llevo 10 años haciendo youtuber. 
+43,43-guadalupe.jpg,Guadalupe,4.0,75,"Vegetación
+Cultura indigena
+Aves","Yo soy de amazonas. Si les interesa la cultura indigena, Bienvenidos."
+44,44-ximena.jpg,Ximena,4.8,40,"Yoga
+Meditación
+Estiramiento!",Aprendí Yoga en India. Me gusta la cultura de India mucho.
+45,45-ming.jpg,Ming,4.1,47,"Hardware
+Matemtica
+Dron","Hola! Soy de Shenzhen, China. Llevo 10años viviendo en Colombia."
+46,46-silvia.jpg,Silvia,4.8,30,"Organización
+Autor
+Diseño interior",Inspirado de Marie Kondo. Organizamos y seamos feliz.
+47,47-ana.jpg,Ana,4.3,65,"CrossFit
+Natación
+Trading",Certificado en CrossFit Level2. Entorenamos juntos.
+48,48-vivian.jpg,Vivian,4.3,90,"Especias
+Comida india
+Buddismo",Mi decendencia es de India. Comparto el conocimiento de India.
+49,49-sakura.jpg,Sakura,4.5,52,"Actor de voz
+Anime
+Karate","Hola, Soy Japonesa. Amo Anime! Bienvenidos Otaku!"
+50,50-domingo.jpg,Domingo,4.3,39,"Vallenato romantico
+Comediante
+Futbol",Toco vallenato romantico muy bonito.
+51,51-felipe.jpg,Felipe,4.6,63,"Entrenador de voz
+Peluquero
+Bachata",Entrenador de canta. Me gusta bailar Bachata.
+52,52-christian.jpg,Christian,4.1,83,"Constructor
+Blockchain
+Leer",Profecional en Construcción. Tambien estoy aprendiendo blockchain.
+53,53-maria-fernanda.jpg,María Fernanda,4.1,15,"Front End Developer
+Barista
+Boxeo",Tengo 7años de experiencia en Front End. Amante de cafe.
+54,54-martin.jpg,Martín,4.9,99,"Back End Developer
+Alemán
+Ajedrez",Profecional en Software development. Me encanta pola.
+55,55-esmeralda.jpg,Esmeralda,4.5,61,"Baile Latino
+Uñas
+Coordinadora de moda",Mi pación es bailar y moda.
+56,56-esperanza.jpg,Esperanza,4.5,69,"Exportación
+Cocina casera venezolana
+Costura",Llevo 25 años exportando frutas a Dubai.
+57,57-lisa.jpg,Lisa,4.6,47,"Auxilar de vuelo
+Ingles
+Viajar",Soy auxilar de vuelo. Puedo enseñar ingles practica.
+58,58-eduardo.jpg,Eduardo,4.9,51,"Baseball
+Cocina Mariscos
+Pesca",Fanatico de Baseball y pesca
+59,59-hugo.jpg,Hugo,4.7,48,"Actor
+Photographía
+Arte",Tomo fotos bonitos.
+60,60-jonathan.jpg,Jonathan,4.3,44,"Jardinero
+Cocina vegana
+Activista medioambiente",Amo la naturaleza y soy muy conciente de medioambiente
+61,61-Carlos.jpg,Carlos,4.8,25,"Desarrollo de Software
+Jugar online
+Peliculas de ciencia ficción!","Trabajo en una multinacional de software, puedo debugar tu codigo si necesitas, especialmente Java"
+62,62-Arturo.jpg,Arturo,4.4,67,"Mercadeo
+Viajes
+Buen sentido del juicio","Experto en mercadeo, me gusta mucho viajar, y puedo ayudarte si necesitas establecer un juicio"
+63,63-Jose.jpg,Jose,4.5,33,"Conversacion
+Historias de vida
+Pesca en altamar","En una conversacion podemos aprender bastante, platicando de las grandes lecciones que se aprenden con la experiencia"
+64,64-Andrea.jpg,Andrea,4.2,50,"Contratacion de personal
+Veganismo
+Animales","Si quieres aprender a encontrar el mejor talento para tu empresa, comunicate conmigo"
+65,65-Nicolas.jpg,Nicolas,4.0,39,"Abogado
+Historia de Costa Rica
+Cocina BBQ","Si necesitas ayuda con problemas legales en Costa Rica no dudes en contactarme, tambien tengo la mejor receta de costillas BBQ"
+66,66-Jhon.jpg,Jhon,4.5,46,"Filosofia
+Ciencias políticas
+Fashion",PHD en filosofia y grado en ciencias politicas
+67,67-Maria-Paula.jpg,Maria Paula,5.0,24,"Nutrición
+Salud
+Familia","Consultas en nutricon, salud y bienestar, amplia experiencia"
+68,68-Juanita.jpg,Juanita,4.1,98,"Organización de eventos
+Frances
+Sexualidad","Tienes preguntas referentes a tu sexualidad pero te da pena hablarlo, no te preocupes soy una experta y puedo ayudarte"
+69,69-Valentina.jpg,Valentina,4.0,80,"Matematicas
+Quimica
+Becas en Chile","Me apasionan las matematicas, soy profesional en quimica y podemos hablar de temas academicos"
+70,70-Mia.jpg,Mia,4.8,43,"Maquillaje
+Comunicacion social
+Periodismo","Soy mia, hija de Indios y Filipinos, te puedo enseñar un estilo unico de maquillaje que te encantara"
+71,71-Jin.jpg,Jin,4.4,5,"Mandarin
+Cultura China
+Taoismo","Soy Jin, te puedo enseñar Mandarin, hablarte de la cultura de mi pais China y la filosofia del Taoismo"
+72,72-Monica.jpg,Monica,4.4,94,"Niñera virtual
+Educacion online
+Lectura infantil","Hola, me encantan los niños y la pandemia no ha sido razon para parar de eduar, contactame si quieres una sesion de lectura agradable con tus hijos"
+73,73-Lucia.jpg,Lucia,4.7,74,"Yoga
+Espiritualidad moderna
+Caminatas en guatemala","Yoga virtual, adaptable a tus capacidades, tambien si tienes gafas de VR podemos caminar y hablar de espiritualidad moderna"
+74,74-Jeffrey.jpg,Jeffrey,4.7,21,"Historia Mundial
+Historia Colombiana
+Geopolitica","Profesor de historia con amplio conocimiento de historia mundial, te resumiere decenas de libros en una sesion"
+75,75-Stephany.jpg,Stephany,4.5,46,"Biología
+Medicina Vegetariana
+Ingles","Tu mascota esta enferma y no sabes por que? te puedo ayudar, ah y tambien doy clases de ingles"
+76,76-Jose.jpg,Jose,5.0,88,"Cultura Caribe
+Emigrar a USA
+Socialismo en Cuba","Emigre a Estados unidos cuando tenia 28 años, te puedo contar sobre la vida en Cuba y el socialismo, seguro te sorprendera"
+77,77-Raul.jpg,Raul,5.0,57,"Pedagogía Universitaria
+Fisica cuántica
+Cosmologia","Mi nombre es Raul y tengo 12 años de experienca dando clases en una de las mejores universidades de Nicaragua, estoy dispuesto a platicar y compartir conocimientos"
+78,78-Oscar.jpg,Oscar,4.8,65,"Poesia
+Literatura antigua
+Crianza de adolecentes",Desde la antigua sumeria he leido numerosos libros de historia antigua que me gustaria compartir contigo
+79,79-Orlando.jpg,Orlando,5.0,33,"Arquitectura
+Arte
+Literatura","Soy un apasionado por la arquitectura el arte y la literatura, podemos compartir piezas de arte y hablar de algunos grandes autores"
+80,80-Vanessa.jpg,Vanessa,4.0,55,"Actuación
+Hamburguesas
+Hablemos con un vino",Hola soy vanessa si quieres hablar un rato agradable contactame
