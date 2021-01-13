@@ -1,47 +1,46 @@
-/*
-* @author : Mentore_DevTeam
-*  Date: 11-JAN-2021
-*  Version: 0.1
-*
-*
-*  Notes
-*  
-*
-*
-*/
-
 function Search_bar() {
-    let input;
-    let Ulcontainer;
-    let UIContactContainer;
+    let input = document.getElementById("myInput").value;
+    let Ulcontainer = document.getElementsByClassName("row_skills");
+    let UIContactContainer = document.getElementsByClassName("contact");
 
-    //get tags
-    //Search bar input
-    input = document.getElementById("myInput").value;
-    input = input.toLowerCase();
-
-    //Grab elements <<div>> from the html
-    Ulcontainer = document.getElementsByClassName("row_skills");
-    UIContactContainer = document.getElementsByClassName("contact");
-
-    //Lists <<li>>
-    getList = document.getElementsByTagName("li");
-
-    //traverse collection TAGS
-    for (let i = 0; i < UIContactContainer.length; ++i) {
-
-        //Look for spaces and trim them
-        //let fixString = Ulcontainer[i].innerHTML.indexOf(",");
-        getList[i] = getList[i].innerHTML.trim();
-        //getList = Ulcontainer[i].innerHTML.trim
-
-        //Seach condition
-        if (UIContactContainer[i].innerHTML.toLowerCase().includes(input)) {
-            //show the division
-            UIContactContainer[i].style.display = "";
-        } else {
-            //Hide the division
-            UIContactContainer[i].style.display = "none";
-        }
+    for (let i = 0; i < Ulcontainer.length; ++i) {
+        var result = searchValue(input, Ulcontainer[i].innerHTML);
+        var displayType = result ? "" : "none";
+        UIContactContainer[i].style.display = displayType;
     }
 }
+
+const searchValue = (input, hability) => {
+    var result = false;
+    var listHabilities = getHabilities(hability);
+    var inputFinal = validateValue(input);
+    for (let i = 0; i < listHabilities.length; i++) {
+        var habilityFinal = validateValue(listHabilities[i]);
+        if (habilityFinal.includes(inputFinal)) {
+            result = true;
+        }
+    }
+
+    return result;
+}
+
+const getHabilities = (hability) => {
+    return hability.replace(/<li>/gi, "")
+        .replace(/<\/li>/gi, "")
+        .replace(/<a>/gi, "")
+        .replace(/<\/a>/gi, "")
+        .replace(/ /gi, "")
+        .replace(/(?:\r\n|\r|\n)/g, "")
+        .split(",");
+}
+
+const validateValue = (value) => {
+    var valueToClear = value.toLowerCase();
+    valueToClear = removeAccents(valueToClear);
+    valueToClear = valueToClear.trim();
+    return valueToClear.replace(/ /gi, "");
+}
+
+const removeAccents = (str) => {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+} 
