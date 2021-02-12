@@ -41,7 +41,7 @@ const validateValue = (value) => {
     return valueToClear.replace(/ /gi, "");
 }
 
-
+/** aca exite un bug, lo tiene que revisar Luis por que lo daño. */
 const removeAccents = (str) => {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 } 
