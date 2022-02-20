@@ -149,3 +149,7 @@ button {
     grid-auto-rows: 300px;
   }
 }
+
+.place > p {
+  font-size: 12px;
+}
