@@ -1,4 +1,6 @@
 # Refined Initial Prototype of tactos
+This is the refinied initial prototype of "tactos", to see the latest design [please go here >>](https://www.figma.com/file/gSUV9HOvIFFC6izoageWmO/tactos?node-id=0%3A1)  
+
 
 ## Motivation
 Building the initial functionality of an app is probably the best way to get feedback, so we committed to creating an initial prototype within a week that was going to be tested with potential users to see how they reacted to the product. This prototype is the iteration of that initial prototype that we build.
@@ -15,9 +17,9 @@ Mobile responsive
 </p>
 
 - Hovering over "Ver más >" gives you a brief self-description of the contact.
-- Clicking on "CONTACTO" directs you to their WhatsApp number.
-- By clicking on "Danos tu opinión" it redirects you to our WhatsApp number to listen to comments.
-- By clicking on "Te lo encontramos" you are redirected to the following form where you can specify the person you are looking for to help you.
+- Clicking on "CONTACTO" (contact) directs you to their WhatsApp number.
+- By clicking on "Danos tu opinión" (give us your opinion) it redirects you to our WhatsApp number to listen to feedback.
+- By clicking on "Te lo encontramos"(We find them for you) you are redirected to the following form where you can specify the person you are looking for to help you.
 https://docs.google.com/forms/d/e/1FAIpQLScQJmsuWf9TVJwN9KThfqsN5I68m7FKcanrPJg1w5w54xrYrA/viewform?embedded=true
 
 ## Instalations needed to run the code
