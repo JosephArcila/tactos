@@ -1,4 +1,4 @@
-# tactos (short for contacts in spanish)
+# tactos
 Helping people get and deliver fast, personalized help.
 
 # Refined Initial Prototype of tactos
