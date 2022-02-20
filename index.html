@@ -1,0 +1,2873 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mentores</title>
+    <link rel="stylesheet" href="mentores.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="myInput" onkeyup="Search_bar()" placeholder='¿A quién buscas?'>
+        <!-- List of contacts -->
+        <div class="contact-container">
+
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/1-pedro-juarez.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Pedro</h3>
+                                <p class="rating">★4.4 (8)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Natación, </a></li>
+                    <li><a>Escritor, </a></li>
+                    <li><a>Educación</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Educador de vocación</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/2-francisco-solorzano.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Francisco</h3>
+                                <p class="rating">★4.2 (35)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Cantante, </a></li>
+                    <li><a>Filosofo, </a></li>
+                    <li><a>Derecho</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Cantante con 8 años de experiencia</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/3-alberta-gallego.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Alberta</h3>
+                                <p class="rating">★4.4 (66)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Desarrollo de apps, </a></li>
+                    <li><a>IOT, </a></li>
+                    <li><a>Arquitecta de software</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Arquitecta de software en latam</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/4-sofia-villareal.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Sofia</h3>
+                                <p class="rating">★4.0 (9)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Profesora, </a></li>
+                    <li><a>Sociales, </a></li>
+                    <li><a>Historia latinoamericana</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Apasionada por la historia</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/5-andres-castiblanco.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Andres</h3>
+                                <p class="rating">★5.0 (10)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Ciencia, </a></li>
+                    <li><a>Biologia, </a></li>
+                    <li><a>Editor genetico con crysp</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Investigador de cryspt</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/6-filipa-castro.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Filipa</h3>
+                                <p class="rating">★4.3 (85)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Científica de datos, </a></li>
+                    <li><a>Diseñadora de algoritmos, </a></li>
+                    <li><a>Experta en redes neuronales</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Data scientist consultor</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/7-pamela-cardona.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Pamela</h3>
+                                <p class="rating">★4.4 (26)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Politologa, </a></li>
+                    <li><a>Escritora de distopias, </a></li>
+                    <li><a>Experta en escritura y pintura</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Apasionada por la politica</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/8-christina-lopez.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Christina</h3>
+                                <p class="rating">★4.1 (9)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Psiquiatra, </a></li>
+                    <li><a>Tenis y ping pong, </a></li>
+                    <li><a>Especialista en psiquiatría en menores</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Especilista en psiquiatria infantil</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/9-felipe-quintero.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Felipe</h3>
+                                <p class="rating">★4.2 (46)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Administrador de empresas, </a></li>
+                    <li><a>Experto en técnicas de aprendizaje, </a></li>
+                    <li><a>Autodidacta</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">El aprendizaje es el sentido de mi vida</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/10-sebastian-shret.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Sebastian</h3>
+                                <p class="rating">★4.7 (85)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Tenista profesional, </a></li>
+                    <li><a>Oftalmólogo, </a></li>
+                    <li><a>Ortodoncista</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Maestro de tenis y profesor</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/11-brayan-cardenas.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Brayan</h3>
+                                <p class="rating">★4.9 (68)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Emprendedor, </a></li>
+                    <li><a>Ingeniero Químico, </a></li>
+                    <li><a>Experto en empresas farmaseuticas</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Mi pasión es la quimica</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/12-camilo.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Camilo</h3>
+                                <p class="rating">★4.2 (80)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Modelo, </a></li>
+                    <li><a>Director de cine, </a></li>
+                    <li><a>Cineasta</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">El humano en el arte es mi especialidad</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/13-alonso-casimiro.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Alonso</h3>
+                                <p class="rating">★4.3 (82)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Baterista, </a></li>
+                    <li><a>Musicologo, </a></li>
+                    <li><a>Maestro de yoga</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">La paz en la musica, eso es lo que enseño</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/14-santiago.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Santiago</h3>
+                                <p class="rating">★4.8 (66)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Arquitecto, </a></li>
+                    <li><a>Profesor de ingles, </a></li>
+                    <li><a>Experto en educación primaria</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Los idiomas son mi pasión</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/15-emilia-zapata.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Emilia</h3>
+                                <p class="rating">★4.5 (20)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Diseñadora de modas, </a></li>
+                    <li><a>confeccionista, </a></li>
+                    <li><a>Directora de pasarela</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">las telas y el modelaje es mi forma de ayudar</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/16-alberto-sinisterra.JPG'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Alberto</h3>
+                                <p class="rating">★4.5 (64)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Deportologo, </a></li>
+                    <li><a>Arbitro de futbol, </a></li>
+                    <li><a>Deportes extremos</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">La cultura del deporte es mi vida</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/17-guadalupe-prieto.JPG'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Guadalupe</h3>
+                                <p class="rating">★4.2 (41)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Emprendedora, </a></li>
+                    <li><a>Experta en algoritmos genéticos, </a></li>
+                    <li><a>Experta en genetica</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">La evolución del hombre y la genética, es mi pasión</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/18-dorothy-perez.JPG'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Dorothy</h3>
+                                <p class="rating">★4.8 (84)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Impulsadora de producto, </a></li>
+                    <li><a>Product designer, </a></li>
+                    <li><a>diseñadora</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">El impacto de los productos en el hombre es mi forma de
+                        ayudar en el mundo</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/19-francisco-zapata.JPG'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Francisco</h3>
+                                <p class="rating">★4.0 (95)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Peluquero, </a></li>
+                    <li><a>Moda y estilos, </a></li>
+                    <li><a>Estilista profesional</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">El look, y la belleza es mi profesión</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/20-alex-sapote.JPG'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Alex</h3>
+                                <p class="rating">★4.3 (99)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Estudiante de ingenieria industrial, </a></li>
+                    <li><a>tutor de matematicas, </a></li>
+                    <li><a>Portugues</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Ayudo a los estudiantes en sus primeros días</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/21-Catalina.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Catalina</h3>
+                                <p class="rating">★4.7 (5)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Idiomas, </a></li>
+                    <li><a>Viajes, </a></li>
+                    <li><a>Caminatas</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Hola, soy cata, y me encanta la diversidad.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/22-Amanda.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Amanda</h3>
+                                <p class="rating">★4.4 (16)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Fitness, </a></li>
+                    <li><a>medios audiovisuales, </a></li>
+                    <li><a>UX/UI</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Hola, soy adicta al fitness y al diseño</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/23-Sebastian.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Sebastian</h3>
+                                <p class="rating">★4.6 (16)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Psicologia, </a></li>
+                    <li><a>Investigación , </a></li>
+                    <li><a>Escritor</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">No leo cartas pero si puedo precisar que puede estar
+                        sucediendote</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/24-Daniel.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Daniel</h3>
+                                <p class="rating">★4.6 (80)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Investigación, </a></li>
+                    <li><a>Matemáticas, </a></li>
+                    <li><a>Vino</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">La formula no está solo en el papel, en compañia de un vino
+                        decubro muchas mas cosas</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/25-Danilo.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Danilo</h3>
+                                <p class="rating">★4.8 (14)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Medicina, </a></li>
+                    <li><a>Caminatas, </a></li>
+                    <li><a>Meditación</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Caminar tambien es una forma de sanar, pero también lo es
+                        meditar</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/26-Samanta.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Samantha</h3>
+                                <p class="rating">★4.6 (43)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Pedagogía , </a></li>
+                    <li><a>Enseñanza constructiva, </a></li>
+                    <li><a>Agricultura</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Mi madre me enseñaba a cosechar y a través de los años he
+                        aprendido que enseñar lo esencial, se vuelve lo más importante</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/27-Carlos.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Carlos</h3>
+                                <p class="rating">★4.8 (76)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Mecanica, </a></li>
+                    <li><a>Carros, </a></li>
+                    <li><a>Arquitectura</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">No solo me gustan la estetica de las construcciones. tambien
+                        soy una apasionado de los motores</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/28-Victor.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Victor</h3>
+                                <p class="rating">★4.8 (40)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Fisica, </a></li>
+                    <li><a>Cocina Gourmet, </a></li>
+                    <li><a>Atletismo</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">¿Crees qué un físico solo sabe de materia? en mi caso se de
+                        cocina, y creeme, soy bueno</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/29-Eduardo.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Eduardo</h3>
+                                <p class="rating">★4.9 (40)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Deportes, </a></li>
+                    <li><a>Natación, </a></li>
+                    <li><a>Viajar</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Hola mundo, soy eduardo, me encanta ejercitarme y
+                        viajar.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/30-Camilo.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Camilo</h3>
+                                <p class="rating">★4.0 (96)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Antropologia, </a></li>
+                    <li><a>Intercambio cultural, </a></li>
+                    <li><a>Viajar</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Hola, me dice cami, me gusta la diversidad del planeta y por
+                        suepuesto, viajar por el mismo.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/31-Antonio.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Antonio</h3>
+                                <p class="rating">★4.3 (48)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Compositor, </a></li>
+                    <li><a>Lectura, </a></li>
+                    <li><a>Jazz</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">ta ta ran shhh, asi es, musica y experiencia</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/32-Alejandro.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Alejandro</h3>
+                                <p class="rating">★4.1 (24)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Arquitectura, </a></li>
+                    <li><a>Leer, </a></li>
+                    <li><a>Estar en compañía</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">El alejo, se hace presente, pasam un libro y permiteme
+                        explorar un espacio estetico.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/33-Jonas.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Jonas</h3>
+                                <p class="rating">★4.9 (83)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Tecnología, </a></li>
+                    <li><a>Servicio comunitario, </a></li>
+                    <li><a>Liderazgo</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Hola soy el Jonas, me gusta ayudar e incentivar a los
+                        demás</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/34-Matias.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Matías</h3>
+                                <p class="rating">★4.3 (29)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Economista, </a></li>
+                    <li><a>Bailar salsa, </a></li>
+                    <li><a>Vacacionar</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Buen dia, tarde o noche, soy una mezcla de numeros y
+                        ritmo</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/35-Sonia.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Sonia</h3>
+                                <p class="rating">★4.3 (64)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Cine, </a></li>
+                    <li><a>Edicion de video, </a></li>
+                    <li><a>Producción y guiónes</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Basicamente me encanta el septimo arte, quizás con un toque
+                        de sauvignon</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/36-Maria.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Maria</h3>
+                                <p class="rating">★4.4 (35)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Socializar, </a></li>
+                    <li><a>Relaciones, </a></li>
+                    <li><a>Ventas</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">No solo te vendo un esfero, tambien te ayudo a soltarte para
+                        que tu puedas lograrlo</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/37-Nicolas.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Nicolas</h3>
+                                <p class="rating">★4.9 (16)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Literatura, </a></li>
+                    <li><a>Cafe, </a></li>
+                    <li><a>Emprendimiento</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Sabes, un café, un cortazar y una libreria, son
+                        suficientes</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/38-Adolfo.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Adolfo</h3>
+                                <p class="rating">★4.2 (24)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Ciclismo , </a></li>
+                    <li><a>Couching , </a></li>
+                    <li><a>Caminatas</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Soy de los que le gusta ejercitar las piernas, pero animando
+                        a los demás a hacerlo</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/39-Sofia.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Sofia</h3>
+                                <p class="rating">★4.2 (49)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Pedagogía , </a></li>
+                    <li><a>Derecho , </a></li>
+                    <li><a>Activista </a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Get up and stand up, asi es, no olvidemos nuestros derechos
+                        y deberes</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/40-July.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>July</h3>
+                                <p class="rating">★4.4 (85)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Organizaciones sin animo de lucro, </a></li>
+                    <li><a>Voluntariado, </a></li>
+                    <li><a>Religion </a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Hey, tu, soy July, y me encanta todo lo espiritual del
+                        mundo.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/41-isabela.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Isabela</h3>
+                                <p class="rating">★4.2 (59)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Piano, </a></li>
+                    <li><a>Compositora , </a></li>
+                    <li><a>Maestro de musica</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Profeción en Piano. Tambien tengo experiencia en
+                        composición.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/42-manuel.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Manuel</h3>
+                                <p class="rating">★4.1 (64)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Youtuber, </a></li>
+                    <li><a>Edicion de video, </a></li>
+                    <li><a>Guitarra</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Llevo 10 años haciendo youtuber. </span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/43-guadalupe.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Guadalupe</h3>
+                                <p class="rating">★4.4 (62)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Vegetación, </a></li>
+                    <li><a>Cultura indigena, </a></li>
+                    <li><a>Aves andinas</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Yo soy de amazonas. Si les interesa la cultura indigena,
+                        Bienvenidos.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/44-ximena.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Ximena</h3>
+                                <p class="rating">★4.1 (78)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Yoga, </a></li>
+                    <li><a>Meditación, </a></li>
+                    <li><a>Estiramiento</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Aprendí Yoga en India. Me gusta la cultura de India
+                        mucho.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/45-ming.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Ming</h3>
+                                <p class="rating">★4.7 (82)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Hardware, </a></li>
+                    <li><a>Matemtica, </a></li>
+                    <li><a>Drones</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Hola! Soy de Shenzhen, China. Llevo 10 años viviendo en
+                        Colombia.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/46-silvia.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Silvia</h3>
+                                <p class="rating">★4.7 (21)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Organización de hogar, </a></li>
+                    <li><a>Autor, </a></li>
+                    <li><a>Diseño interior</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Inspirado de Marie Kondo. Organizamos y seamos feliz.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/47-ana.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Ana</h3>
+                                <p class="rating">★4.8 (89)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>CrossFit, </a></li>
+                    <li><a>Natación, </a></li>
+                    <li><a>Trading</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Certificado en CrossFit Level2. Entorenamos juntos.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/48-vivian.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Vivian</h3>
+                                <p class="rating">★4.1 (95)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Ayurveda, </a></li>
+                    <li><a>Comida india, </a></li>
+                    <li><a>Buddismo</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Mi decendencia es de India. Comparto el conocimiento de
+                        India.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/49-sakura.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Sakura</h3>
+                                <p class="rating">★4.1 (54)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Actor de voz, </a></li>
+                    <li><a>Anime, </a></li>
+                    <li><a>Karate</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Hola, Soy Japonesa. Amo Anime! Bienvenidos Otaku!</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/50-domingo.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Domingo</h3>
+                                <p class="rating">★4.3 (39)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Vallenato romantico, </a></li>
+                    <li><a>Comediante, </a></li>
+                    <li><a>Futbol</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Toco vallenato romantico muy bonito.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/51-felipe.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Felipe</h3>
+                                <p class="rating">★4.8 (88)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Entrenador de voz, </a></li>
+                    <li><a>Peluquero, </a></li>
+                    <li><a>Bachata</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Entrenador de canta. Me gusta bailar Bachata.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/52-christian.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Christian</h3>
+                                <p class="rating">★4.7 (77)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Constructor, </a></li>
+                    <li><a>Blockchain, </a></li>
+                    <li><a>Leer</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Profecional en Construcción. Tambien estoy aprendiendo
+                        blockchain.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/53-maria-fernanda.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>María Fernanda</h3>
+                                <p class="rating">★4.7 (90)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Front End Developer, </a></li>
+                    <li><a>Barista, </a></li>
+                    <li><a>Boxeo</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Tengo 7años de experiencia en Front End. Amante de
+                        cafe.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/54-martin.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Martín</h3>
+                                <p class="rating">★4.0 (17)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Back End Developer, </a></li>
+                    <li><a>Alemán, </a></li>
+                    <li><a>Ajedrez</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Profecional en Software development. Me encanta pola.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/55-esmeralda.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Esmeralda</h3>
+                                <p class="rating">★4.7 (75)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Baile Latino, </a></li>
+                    <li><a>Uñas, </a></li>
+                    <li><a>Moda y Estilo</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Mi pación es bailar y moda.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/56-esperanza.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Esperanza</h3>
+                                <p class="rating">★4.1 (15)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Exportación, </a></li>
+                    <li><a>Cocina casera venezolana, </a></li>
+                    <li><a>Costura</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Llevo 25 años exportando frutas a Dubai.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/57-lisa.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Lisa</h3>
+                                <p class="rating">★4.3 (63)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Auxilar de vuelo, </a></li>
+                    <li><a>Ingles, </a></li>
+                    <li><a>Viajar</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Soy auxilar de vuelo. Puedo enseñar ingles practica.</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/58-eduardo.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Eduardo</h3>
+                                <p class="rating">★4.7 (16)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Baseball, </a></li>
+                    <li><a>Cocina Mariscos, </a></li>
+                    <li><a>Pesca</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Fanatico de baseball y pesca</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/59-hugo.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Hugo</h3>
+                                <p class="rating">★4.5 (17)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Actor, </a></li>
+                    <li><a>Fotografía, </a></li>
+                    <li><a>Arte</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Tomo fotos bonitos</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/60-jonathan.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Jonathan</h3>
+                                <p class="rating">★4.8 (90)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Jardinero, </a></li>
+                    <li><a>Cocina vegana, </a></li>
+                    <li><a>Activista medioambiental</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Amo la naturaleza y soy muy conciente de
+                        medioambiente</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/61-Carlos.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Carlos</h3>
+                                <p class="rating">★4.8 (83)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Desarrollo de Software, </a></li>
+                    <li><a>Jugar online, </a></li>
+                    <li><a>Peliculas de ciencia ficción</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Trabajo en una multinacional de software, puedo debugar tu
+                        codigo si necesitas, especialmente Java</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/62-Arturo.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Arturo</h3>
+                                <p class="rating">★4.2 (53)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Mercadeo, </a></li>
+                    <li><a>Viajes, </a></li>
+                    <li><a>Buen sentido del juicio</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Experto en mercadeo, me gusta mucho viajar, y puedo ayudarte
+                        si necesitas establecer un juicio</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/63-Jose.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Jose</h3>
+                                <p class="rating">★4.8 (51)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Conversacion, </a></li>
+                    <li><a>Historias de vida, </a></li>
+                    <li><a>Pesca en altamar</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">En una conversacion podemos aprender bastante, platicando de
+                        las grandes lecciones que se aprenden con la experiencia</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/64-Andrea.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Andrea</h3>
+                                <p class="rating">★4.0 (34)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Contratacion de personal, </a></li>
+                    <li><a>Veganismo, </a></li>
+                    <li><a>Animales</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Si quieres aprender a encontrar el mejor talento para tu
+                        empresa, comunicate conmigo</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/65-Nicolas.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Nicolas</h3>
+                                <p class="rating">★4.8 (65)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Abogado, </a></li>
+                    <li><a>Historia de Costa Rica, </a></li>
+                    <li><a>Cocina BBQ</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Si necesitas ayuda con problemas legales en Costa Rica no
+                        dudes en contactarme, tambien tengo la mejor receta de costillas BBQ</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/66-Jhon.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Jhon</h3>
+                                <p class="rating">★4.9 (48)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Filosofia, </a></li>
+                    <li><a>Ciencias políticas, </a></li>
+                    <li><a>Fashion</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">PHD en filosofia y grado en ciencias politicas</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/67-Maria-Paula.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Maria Paula</h3>
+                                <p class="rating">★4.5 (59)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Nutrición, </a></li>
+                    <li><a>Salud, </a></li>
+                    <li><a>Familia</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Consultas en nutricon, salud y bienestar, amplia
+                        experiencia</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/68-Juanita.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Juanita</h3>
+                                <p class="rating">★4.0 (96)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Organización de eventos, </a></li>
+                    <li><a>Frances, </a></li>
+                    <li><a>Sexualidad</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Tienes preguntas referentes a tu sexualidad pero te da pena
+                        hablarlo, no te preocupes soy una experta y puedo ayudarte</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/69-Valentina.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Valentina</h3>
+                                <p class="rating">★4.5 (26)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Matematicas, </a></li>
+                    <li><a>Quimica, </a></li>
+                    <li><a>Becas en Chile</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Me apasionan las matematicas, soy profesional en quimica y
+                        podemos hablar de temas academicos</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/70-Mia.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Mia</h3>
+                                <p class="rating">★4.8 (37)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Maquillaje, </a></li>
+                    <li><a>Comunicacion social, </a></li>
+                    <li><a>Periodismo</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Soy mia, hija de Indios y Filipinos, te puedo enseñar un
+                        estilo unico de maquillaje que te encantara</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/71-Jin.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Jin</h3>
+                                <p class="rating">★4.0 (61)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Mandarin, </a></li>
+                    <li><a>Cultura China, </a></li>
+                    <li><a>Taoismo</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Soy Jin, te puedo enseñar Mandarin, hablarte de la cultura
+                        de mi pais China y la filosofia del Taoismo</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/72-Monica.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Monica</h3>
+                                <p class="rating">★4.4 (30)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Niñera virtual, </a></li>
+                    <li><a>Educacion online, </a></li>
+                    <li><a>Lectura infantil</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Hola, me encantan los niños y la pandemia no ha sido razon
+                        para parar de eduar, contactame si quieres una sesion de lectura agradable con tus hijos</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/73-Lucia.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Lucia</h3>
+                                <p class="rating">★4.6 (95)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Yoga, </a></li>
+                    <li><a>Espiritualidad moderna, </a></li>
+                    <li><a>Caminatas en guatemala</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Yoga virtual, adaptable a tus capacidades, tambien si tienes
+                        gafas de VR podemos caminar y hablar de espiritualidad moderna</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/74-Jeffrey.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Jeffrey</h3>
+                                <p class="rating">★4.4 (77)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Historia Mundial, </a></li>
+                    <li><a>Historia Colombiana, </a></li>
+                    <li><a>Geopolitica</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Profesor de historia con amplio conocimiento de historia
+                        mundial, te resumiere decenas de libros en una sesion</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/75-Stephany.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Stephany</h3>
+                                <p class="rating">★4.9 (14)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Biología, </a></li>
+                    <li><a>Medicina Vegetariana, </a></li>
+                    <li><a>Ingles</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Tu mascota esta enferma y no sabes por que? te puedo ayudar,
+                        ah y tambien doy clases de ingles</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/76-Jose.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Jose</h3>
+                                <p class="rating">★4.3 (55)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Cultura Caribe, </a></li>
+                    <li><a>Emigrar a USA, </a></li>
+                    <li><a>Socialismo en Cuba</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Emigre a Estados unidos cuando tenia 28 años, te puedo
+                        contar sobre la vida en Cuba y el socialismo, seguro te sorprendera</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/77-Raul.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Raul</h3>
+                                <p class="rating">★4.9 (23)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Pedagogía Universitaria, </a></li>
+                    <li><a>Fisica cuántica, </a></li>
+                    <li><a>Cosmologia</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Mi nombre es Raul y tengo 12 años de experienca dando clases
+                        en una de las mejores universidades de Nicaragua, estoy dispuesto a platicar y compartir
+                        conocimientos</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/78-Oscar.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Oscar</h3>
+                                <p class="rating">★4.1 (92)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Poesia, </a></li>
+                    <li><a>Literatura antigua, </a></li>
+                    <li><a>Crianza de adolecentes</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Desde la antigua sumeria he leido numerosos libros de
+                        historia antigua que me gustaria compartir contigo</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/79-Orlando.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Orlando</h3>
+                                <p class="rating">★4.3 (14)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Arquitectura, </a></li>
+                    <li><a>Arte, </a></li>
+                    <li><a>Literatura</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Soy un apasionado por la arquitectura el arte y la
+                        literatura, podemos compartir piezas de arte y hablar de algunos grandes autores</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="icon" src='images/80-Vanessa.jpg'>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="name-rating col-9">
+                                <h3>Vanessa</h3>
+                                <p class="rating">★4.5 (40)</p>
+                            </div>
+                            <div class="col-3 map">
+                                <a href='https://www.google.com/maps' target='_blank'>
+                                    <img src="images/map-pin2.png" alt="map pin icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="row_skills">
+                    <li><a>Actuación, </a></li>
+                    <li><a>Hamburguesas, </a></li>
+                    <li><a>Hablemos con un vino</a></li>
+                </ul>
+
+                <div class="row_tooltip">Ver más >
+                    <span class="tooltiptext" id="overflow">Hola soy vanessa si quieres hablar un rato agradable
+                        contactame</span>
+                </div>
+
+                <div class="text-center">
+                    <a href='https://wa.me/573213718166' target='_blank'>
+                        <button type="button">CONTACTO</button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="mentores.js"></script>
+
+</html>
