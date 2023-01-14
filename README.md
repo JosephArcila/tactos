@@ -1,5 +1,5 @@
 # tactos
-Helping people get and deliver fast, personalized help.
+Helping people get and give personalized help.
 
 # Refined Initial Prototype of tactos
 This is the refinied initial prototype of "tactos", to see the latest design [please go here >>](https://www.figma.com/file/gSUV9HOvIFFC6izoageWmO/tactos?node-id=0%3A1)  
